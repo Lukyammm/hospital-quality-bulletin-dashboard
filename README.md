@@ -1,53 +1,48 @@
-# 📋 HELV_BOLETIM — Boletim Hospitalar HELV
+# HELV Hospital Bulletin
 
-Sistema web para geração e gestão de boletins operacionais hospitalares, desenvolvido com Google Apps Script e Google Sheets.
+Repository: `HELV_BOLETIM`
 
----
+## Overview
 
-## 📝 Descrição objetiva
+Hospital bulletin dashboard for HELV indicators, filters, pages, notifications, tabs, and report export.
 
-O **HELV_BOLETIM** é um WebApp em **Google Apps Script + Google Sheets + HTML/CSS/JS** criado para centralizar e exibir informações de boletim hospitalar de forma estruturada, permitindo acompanhamento em tempo real dos dados operacionais do hospital.
+## Main Capabilities
 
----
+- Filter and summary surface for bulletin generation.
+- Separate bulletin pages for safety walks and notifications.
+- Trend and distribution views for hospital reporting.
 
-## 🚀 Funcionalidades
+## Operating Flow
 
-- Visualização consolidada de dados do boletim hospitalar
-- Interface web responsiva e intuitiva
-- Integração direta com planilha Google Sheets como fonte de dados
-- Atualização automática dos indicadores via Apps Script
+1. Select the reporting filters.
+2. Review the generated summary and report pages.
+3. Use the notification page to inspect event distribution.
+4. Export or present the institutional bulletin.
 
----
+## Visual System Guide
 
-## 🛠️ Tecnologias
+> The screens below are documentation mockups based on the components, labels, colors, and workflows found in this repository. All displayed data is fictitious and does not represent real patients, staff members, or institutions.
 
-- Google Apps Script (backend)
-- Google Sheets (banco de dados)
-- HTML / CSS / JavaScript (frontend WebApp)
+### HELV - filters and summary
+![HELV - filters and summary](./docs/screenshots/helv-filters.svg)
 
----
+### HELV - pages and indicators
+![HELV - pages and indicators](./docs/screenshots/helv-pages.svg)
 
-## ⚙️ Como publicar
+### HELV - notifications
+![HELV - notifications](./docs/screenshots/helv-notifications.svg)
 
-1. Crie uma planilha Google com a estrutura de dados do boletim.
-2. Em `Extensões > Apps Script`, cole os arquivos `Code.gs` e `index.html`.
-3. Implante em `Implantar > Nova implantação` como **Aplicativo da Web**:
-   - Executar como: **Eu**
-   - Quem pode acessar: **Sua organização**
-4. Copie o URL e compartilhe com a equipe.
+## Data Privacy
 
+The repository documentation and guide images use fictitious sample data only.
 
+## Technologies
 
+- JavaScript
+- HTML/CSS
+- Google Apps Script
+- Google Sheets
 
-## Guia visual do sistema
+## Status
 
-> Telas demonstrativas baseadas nos componentes, textos, cores e fluxos encontrados no código deste repositório. Os dados exibidos são fictícios e não representam pacientes, profissionais ou instituições reais.
-
-### HELV - filtros e resumo
-![HELV - filtros e resumo](./docs/screenshots/helv-filtros.svg)
-
-### HELV - páginas e indicadores
-![HELV - páginas e indicadores](./docs/screenshots/helv-paginas.svg)
-
-### HELV - notificações
-![HELV - notificações](./docs/screenshots/helv-notificacoes.svg)
+Completed
